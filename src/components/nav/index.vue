@@ -8,8 +8,8 @@
         <el-row :gutter="5">
           <el-col :span="6">
             <div id="search-button">
-                <i class="el-icon-search"></i>
-                <span>搜索</span>
+                <span><i class="el-icon-search"></i>
+                搜索</span>
             </div></el-col
           >
           <el-col :span="6"><div class="grid-content bg-purple">2</div></el-col>

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "concurrently \"vue-cli-service serve\" \"nodemon mock/index.js\"",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -22,6 +22,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "nodemon": "^2.0.9",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
